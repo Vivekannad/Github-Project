@@ -15,7 +15,7 @@ form.addEventListener("submit", (e) => {
 
 const renderDetails = (user) => {
     render.innerHTML = `
-    <div class="render">
+    <div class="render-details">
     <div class="image-center">
         <img src='${user.avatar_url}' alt="A picture whom you searched" id="image">
     </div>
